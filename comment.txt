@@ -1,0 +1,12 @@
+  // axios.get(`api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${lon}&cnt=5&appid=${WKEY}`).then(res => {
+  //   console.log(res.data)
+  // });
+
+  // const [res16, setRes16] = useState(Cstate)
+  // const [chartData, setChartData] = useState({
+  //   labels: [12, 15, 18],//res16.list.map(data => data.dt),
+  //   datasets: [{
+  //     label: 'Temperature K',
+  //     data: [1, 2, 3] //res16.list.map(data => data.temp.day)
+  //   }]
+  // });
