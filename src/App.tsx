@@ -34,7 +34,7 @@ function App() {
           setRes(res.data)
         });
       } catch (err) {
-        setErr(err)
+        console.log(err)
       }
     }
     Fetch()
@@ -78,7 +78,6 @@ function App() {
       <Navbar setCountry={setcountry} setTheme={setTheme} toggleHandler={toggleHandler} />
       {/* Cards */}
       <div className="w-full p-4 relative">
-        {err ? <Spinner /> : null}
         <div className="flex flex-col backdrop-blur-md items-center my-4 bg-white rounded-lg border shadow-md md:flex-row w-9/12 sm:w-full dark:border-gray-700 dark:bg-gray-800">
           <div className="w-1/2 flex flex-col items-center">
             <div className="w-1/2 mb-1">
